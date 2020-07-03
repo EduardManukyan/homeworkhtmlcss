@@ -1,0 +1,26 @@
+    * {
+        box-sizing: border-box;
+    }
+    html {
+            scroll-behavior: smooth;
+    }
+        
+    body {
+            margin: 0 20px;
+            font-family: "PT Sans", sans-serif;
+            line-height: 1.4;
+            background: #edeef0;
+    }
+    .main-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        
+            border-bottom: 2px solid #ccc;
+    }
+    .inputs {
+        display: flex;
+        justify-content: center;
+
+        }
