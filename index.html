@@ -17,33 +17,42 @@
     <img height="200px" class="logo" src="./items/barcelona-logo.jpg" alt="Barcelona">
     <span>MÉS QUE UN CLUB</span>
     <nav>
-      <ul>
-        <li><a class="nav-items-link" href="./index.html">Home</a> </li>
-        <li> <a class="nav-items-link" href="./players barcelona.html">Players FCBarcelona</a></li>
-        <!-- <li><a class="nav-items-link" href="./.html">Barcelona Honours</a></li> -->
-      </ul>
+      <div class="div-nav">
+        <ul class="nav-items">
+          <li><a class="nav-items-link" href="./index.html">Home</a> </li>
+          <li> <a class="nav-items-link" href="./players barcelona.html">Players FCBarcelona</a></li>
+
+
+          <!-- <li><a class="nav-items-link" href="./.html">Barcelona Honours</a></li> -->
+        </ul>
+      </div>
+
+
+
+
     </nav>
     <form action="https://www.fcbarcelona.com/en/" method="get">
-      <label for="name">First Name<input class="inputs" type="text" name="firstname"></label>
+      <label for="name">First Name<input class="inputs" type="text"  name="firstname"></label>
 
       <label for="name">Last Name <input class="inputs" type="text" name="lastname"></label>
 
       <label for="mail">Mail <input class="inputs" type="email" name="mail"></label>
 
-      <label for="Password">Password <input class="inputs" type="password" name="Password"></label>
+      <label for="Password">Password <input class="inputs" type="password"  name="Password"></label>
 
       <input class="inputs" type="submit">
     </form>
   </header>
-  <main>
+  <main class="main-content-wrapper">
     <h1>Hobby FCBarcelona club</h1>
     <div>
       <section>
         <h2><a
             href="https://en.wikipedia.org/wiki/History_of_FC_Barcelona#:~:text=The%20history%20of%20Futbol%20Club,footballers%20led%20by%20Joan%20Gamper.">
             Beginnings of Football Club Barcelona (1899–1922)</a> </h2>
-        <img src="./items/Joan_Gamper_1910_year.jpg" width="200" alt="Joan Gamper">
-        <div>On 22 October 1899, Joan Gamper placed an advertisement in Los Deportes declaring his wish to form a
+        
+        <div class="cont-div">
+          <img class="img-Joan" src="./items/Joan_Gamper_1910_year.jpg" width="300" alt="Joan Gamper">On 22 October 1899, Joan Gamper placed an advertisement in Los Deportes declaring his wish to form a
           football
           club; a positive response resulted in a meeting at the Gimnasio Solé on 29 November. Eleven players attended:
           Walter Wild (the first director of the club), Lluís d'Ossó, Bartomeu Terradas, Otto Kunzle, Otto Maier, Enric
@@ -96,8 +105,9 @@
         </div>
       </section>
     </div>
-    <h2><a href="https://www.fcbarcelona.com/en/football/first-team/honours">Barcelona Honours</a> </h2>
-    <div>
+   
+    <div class="cont-div-honours">
+      <h2><a href="https://www.fcbarcelona.com/en/football/first-team/honours">Barcelona Honours</a> </h2>
       Domestically, Barcelona has won a record 74 trophies: 26 La Liga, 30 Copa del Rey, 13 Supercopa de España, 3 Copa
       Eva
       Duarte, and 2 Copa de la Liga trophies, as well as being the record holder for the latter four competitions. In
@@ -139,7 +149,8 @@
       of
       £10m ($13.8m) per year.
     </div>
-    <section>
+    <section class="tags-list">
+      <h2>Tags</h2>
       <ul class="tags-body">
         <li><i class="fa fa-tag" aria-hidden="true"></i> Life</li>
         <li><i class="fa fa-tag" aria-hidden="true"></i> Work</li>
@@ -149,7 +160,7 @@
     </section>
   </main>
   <!-- <a class="jump-to-top" href="#">🔝</a> -->
-  <footer>
+  <footer class="main-footer">
     <p class="copyright"> (c) Copyright, 2020Eduard Manukyan</p>
   </footer>
 </body>

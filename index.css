@@ -1,5 +1,7 @@
     * {
         box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
     }
     html {
             scroll-behavior: smooth;
@@ -14,9 +16,9 @@
     .main-header {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+      
             padding: 20px 0;
-        
+            box-sizing: border-box;
             border-bottom: 2px solid #ccc;
     }
     .inputs {
@@ -24,3 +26,71 @@
         justify-content: center;
 
         }
+        span{
+                display: flex;
+                justify-content: space-between;
+                      align-items: center;
+        }
+.nav-items{
+display: inline-flex;
+list-style: none;
+
+}
+.nav-items-link{
+padding: 10px;
+}
+
+nav{
+        height: 0;
+        width: 0;
+}
+.inputs{
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+}
+.cont-div{
+        display: flex;
+        padding-top: 50px;
+        
+        
+}
+.img-Joan{
+        padding-right: 20px;
+}
+.cont-div-honours{
+        padding-top: 50px;
+}
+.main-content-wrapper .tags-list {
+        flex-grow: 1;
+      }
+      
+      .tags-list {
+        padding: 20px;
+      }
+      
+      .tags-list .tags-body {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .tags-body li {
+        margin: 5px 0;
+        padding: 5px;
+      
+        border-radius: 10px;
+        background-color: rgb(218, 8, 8);
+        color: white;
+        cursor: pointer;
+        text-align: center;
+      }
+     
+     
+  .main-footer {
+        border-top: 2px solid #ccc;
+      }
+      .main-footer .copyright {
+        text-align: center;
+        color: #656565;
+      }
