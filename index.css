@@ -8,10 +8,12 @@
     }
         
     body {
-            margin: 0 20px;
-            font-family: "PT Sans", sans-serif;
-            line-height: 1.4;
-            background: #edeef0;
+         margin: 0 20px;
+         font-family: "PT Sans", sans-serif;
+        line-height: 1.4;
+        background-color: #181733;
+        border-right: .1rem solid #29283d;
+        color: #fff;
     }
     .main-header {
             display: flex;
@@ -24,47 +26,49 @@
     .inputs {
         display: flex;
         justify-content: center;
-
+        
         }
         span{
                 display: flex;
                 justify-content: space-between;
                       align-items: center;
         }
-.nav-items{
-display: inline-flex;
-list-style: none;
+        .nav-items{
+        display: inline-flex;
+        list-style: none;
 
-}
-.nav-items-link{
-padding: 10px;
-}
 
-nav{
-        height: 0;
-        width: 0;
-}
-.inputs{
-        cursor: pointer;
-        border-radius: 5px;
-        border: none;
-}
-.cont-div{
-        display: flex;
-        padding-top: 50px;
+        }
+        .nav-items-link{
+        padding: 10px;
+        color: #fff;
+        }
+
+        nav{
+                height: 0;
+                width: 0;
+        }
+        .inputs{
+                cursor: pointer;
+                border-radius: 5px;
+                border: none;
+        }
+        .cont-div{
+                display: flex;
+                padding-top: 50px;
+                
+                
+        }
+        .img-Joan{
+                padding-right: 20px;
+        }
+        .cont-div-honours{
+                padding-top: 50px;
+        }
+        .main-content-wrapper .tags-list {
+                flex-grow: 1;
+        }
         
-        
-}
-.img-Joan{
-        padding-right: 20px;
-}
-.cont-div-honours{
-        padding-top: 50px;
-}
-.main-content-wrapper .tags-list {
-        flex-grow: 1;
-      }
-      
       .tags-list {
         padding: 20px;
       }
@@ -86,11 +90,183 @@ nav{
         text-align: center;
       }
      
-     
-  .main-footer {
-        border-top: 2px solid #ccc;
-      }
-      .main-footer .copyright {
-        text-align: center;
+        
+        .main-footer {
+                border-top: 2px solid #ccc;
+        }
+        .main-footer .copyright {
+                text-align: center;
+                color: #656565;
+        }
+        .booton{
+                color: blue;
+                
+        }
+
+
+/*       
+      pleyers barcelona.html
+      */
+
+        .players-items{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        }
+        .players-items .players-item{
+        width: 30%;
+        min-width: 500px;
+        margin: 20px;
+        display: flex;
+
+        background-color: rgb(205, 18, 45);
+        }
+
+
+        .players-item p{
+        padding: 0 20px;
+        font-style: italic;
+      
+
+        }
+       
+        .player-name{
         color: #656565;
-      }
+        text-align: center;
+        }
+        .title{
+        text-align: center;
+        }
+        .main-players{
+        margin-top: 100px;
+
+        }
+
+        @media screen and (max-width:600px){
+                .tags-body {
+                        display: flex;
+                        flex-wrap: wrap;
+                      }
+                    
+                      .tags-body li {
+                        margin-right: 5px;
+                        margin-left: 5px;
+                      }
+                      .main-players{
+                        bottom: 100px;
+                 }
+                     
+        }
+        @media screen and (max-width: 610px) {
+               
+
+        .tags-list {
+        display: none;
+        }
+
+        .main-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+
+        .logo {
+        height: 150px;
+        }
+
+        .main-header nav {
+        border-top-right-radius: 10px;
+        }
+
+        .main-header .logo {
+        margin-bottom: 30px;
+        }
+        .nav-items {
+        display: block;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        }
+
+        .nav-items li {
+        width: 100%;
+        }
+
+        .nav-items li a {
+        display: block;
+        padding: 15px;
+        }
+        .nav-items li a:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+        text-decoration: underline;
+        }
+        .img-Joan{
+        display: none
+        }
+        nav{
+                margin-left: 227px;
+    margin-top: 16px;
+        }
+        }
+ 
+
+        /* add play*/
+
+        .form-wrapper {
+                display: flex;
+                justify-content: space-around;
+              }
+              
+              
+              
+              .add-pleyers
+               {
+                width: 420px;
+              
+                margin-bottom: 40px;
+              }
+              
+              .add-players-form
+               {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+              }
+              
+              .add-players-form .submit-btn
+             {
+                align-self: stretch;
+              }
+              
+              
+              
+              .input-label {
+                display: flex;
+                flex-direction: column;
+              
+                margin-bottom: 20px;
+                width: 100%;
+              }
+              
+              .input-label input,
+              .input-label textarea {
+                border: none;
+                border-radius: 5px;
+                padding: 10px;
+              }
+              
+                @media screen and (max-width: 1064px) {
+                .form-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                }
+
+
+                }
+
+
+             
+              .icon-color {
+                color: #3030a2;
+              }
